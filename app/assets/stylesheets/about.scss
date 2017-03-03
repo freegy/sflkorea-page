@@ -1,0 +1,109 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.abouthead {
+    background-image: asset-url('abouthead.jpg');
+    background-size: cover;
+    height: 200px;
+}
+
+.abouthead h1 {
+    color: white;
+    font-family: Arial;
+    font-size: 45px;
+}
+
+.abouthead h3 {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.abouts1 {
+    background-color: white;
+}
+
+.introimg {}
+//아이콘영역
+.icosecond {
+    margin-top: 30px;
+}
+
+.round {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #222;
+    color: #FFF;
+    text-align: center;
+}
+
+.round.hollow {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #FFF;
+    color: #222;
+    text-align: center;
+    -webkit-box-shadow: 0 0 0 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 0 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.75);
+}
+
+.round.round-lg {
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
+    font-size: 5.5em;
+}
+
+.round.blue {
+    background-color: #3EA6CE;
+}
+
+.round.orange {
+    background-color: #FF6701;
+}
+
+.round.green {
+    background-color: #42A129;
+}
+
+.round.hollow.blue {
+    color: #3EA6CE;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 0 0 3px #3EA6CE;
+    -moz-box-shadow: 0 0 0 3px #3EA6CE;
+    box-shadow: 0 0 0 3px #3EA6CE;
+}
+
+.round.hollow.orange {
+    color: #FF6701;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 0 0 3px #FF6701;
+    -moz-box-shadow: 0 0 0 3px #FF6701;
+    box-shadow: 0 0 0 3px #FF6701;
+}
+
+.round.hollow.green {
+    color: #42A129;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 0 0 3px #42A129;
+    -moz-box-shadow: 0 0 0 3px #42A129;
+    box-shadow: 0 0 0 3px #42A129;
+}
+//팀페이지
+.img-center {
+    margin: 0 auto;
+}
